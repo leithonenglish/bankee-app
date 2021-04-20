@@ -1,0 +1,26 @@
+.title {
+  @apply mb-5 font-bold text-3xl;
+}
+.intro {
+  @apply font-light text-xs text-center text-port-gore text-opacity-80 tracking-widest leading-relaxed max-w-[230px] md:text-sm;
+}
+.introWide {
+  @apply max-w-[310px];
+}
+.input {
+  @apply h-[54px] w-full px-7 mt-1 bg-alabaster rounded-xl border border-alabaster transition-colors focus:bg-medium-purple focus:bg-opacity-20 focus:outline-none focus:border-medium-purple md:mt-3;
+}
+.subtext {
+  @apply text-center text-sm text-port-gore text-opacity-80 mt-6;
+}
+.submitButton {
+  @apply text-[#fff] font-bold h-[60px] w-full mt-10 bg-medium-purple rounded-xl transition-colors disabled:bg-port-gore disabled:bg-opacity-20;
+}
+.button,
+.buttonLink {
+  @apply text-[#fff] font-bold h-[60px] w-full mt-2 bg-[#000] rounded-xl;
+}
+
+.buttonLink {
+  @apply flex justify-center items-center;
+}
